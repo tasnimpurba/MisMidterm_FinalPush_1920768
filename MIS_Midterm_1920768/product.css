@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color: rgb(233, 139, 188);
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 0%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin-left: 20%;
+}
+.navbar a:hover{
+    background-color: hsl(305, 82%, 69%);
+    width: 90%;
+}
+.navbar li{
+    float: left;
+    margin-left: 10%;
+
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    margin: 100px;
+    
+}
+#whole{
+  background-color: rgb(177, 200, 247);  
+  font-family: 'Caveat', cursive;
+}
+
+.box{
+    background-color: rgb(114, 245, 2502, 169, 162);
+    margin-left: 100px;
+    width: auto;
+}
+
+
+.box img{ width: 80%;
+    height: 290px;
+    margin-left: 10%;
+    margin-right: 10%;
+        
+         }
+
+.third{
+
+    display:flex;
+    margin-top: 10%;
+    font-size: x-large;}
+
+
+    .pic2{
+        margin-left: 0%;
+        
+    }
+    
+    .paragraph2{
+        font-family: 'Dancing Script', cursive;
+        margin-left: 5%;
+        text-align: left;
+        font-size: larger;
+    }
+    
+    .pic3{
+        margin-left: 5%;
+    }
+    h5{
+        font-style: italic;
+    }
+
+footer{
+    text-align: center;
+    font-size: smaller;
+    font-style: normal;
+}
